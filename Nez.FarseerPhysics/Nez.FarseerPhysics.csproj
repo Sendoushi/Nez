@@ -184,7 +184,8 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
-      <HintPath>..\Nez.Portable\MonoGamePCL\MonoGame.Framework.dll</HintPath>
+      <!-- <HintPath>..\Nez.Portable\MonoGamePCL\MonoGame.Framework.dll</HintPath> -->
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\MonoGame.Framework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

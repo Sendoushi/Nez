@@ -574,15 +574,21 @@
     <Compile Include="Utils\Extensions\TouchLocationExt.cs" />
     <Compile Include="Utils\Extensions\GestureSampleExt.cs" />
   </ItemGroup>
-  <ItemGroup>
+  <!-- <ItemGroup>
     <Reference Include="MonoGame.Framework">
       <HintPath>MonoGamePCL\MonoGame.Framework.dll</HintPath>
     </Reference>
-  </ItemGroup>
+  </ItemGroup> -->
   <ItemGroup>
     <EmbeddedResource Include="Content\NezDefaultBMFont.xnb" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Graphics\SVG\Shapes\Paths\SvgPathBuilder.cs" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
